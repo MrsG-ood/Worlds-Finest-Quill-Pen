@@ -1,0 +1,89 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Viaoda Libre', cursive;
+Grey: rgb(147 149 151) #939597
+Illuminating rgb(245 223 77) #f5df4d */
+/*=================================================
+        BASE STYLES
+=================================================*/
+html,
+body{
+    box-sizing: border-box;
+    background-color:#636363;
+    margin:0;
+    padding:0;
+   
+    }
+header{
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 2.25rem;
+    background-color:#202020;
+    color:#e3ded2;
+    padding-top:2rem;
+    padding-bottom:1rem;
+    width:100vw;
+    border-bottom:4px solid #e3ded2;
+    }
+/* h1
+h2
+h3*/
+p {
+    font-family:'Roboto', sans-serif;
+    font-size: 1rem;
+    text-align:center;
+    width:90vw;
+}
+img {
+    width:75vw;
+    z-index: 1250;
+    margin-top:1rem;
+    border: 3px solid #202020;
+}
+button{
+    border:none;
+    background-color:#e3ded2;
+    width:15rem;;
+    height:46px;
+    color:#202020;
+    font-family:'Roboto', sans-serif;
+    font-size: 2rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    border-radius: 30px;
+
+}
+.centerself{
+    align-self: center;
+    justify-self: center;
+}
+.center{
+    text-align:center;
+}
+.flexcontainer{
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    background: rgb(227,222,210);
+    background: radial-gradient(circle, rgba(227,222,210,1) 0%, rgba(184,180,171,1) 100%);
+    border-top:4px solid #202020;
+    border-bottom:4px solid #202020;
+    width:100vw;
+}
+.itemimg{
+    width: 15vw;;
+}
+
+/* button */
+/*=================================================
+        CLASS STYLES
+=================================================*/
+
+/*=================================================
+        MEDIA QUERIES   
+=================================================*/
+/* @media screen and (min-width:996px){
+
+} */
